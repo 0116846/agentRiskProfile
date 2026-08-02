@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Neural network connection lines -->
+  <g stroke="#4f46e5" stroke-opacity="0.07" stroke-width="1" fill="none">
+    <line x1="100" y1="100" x2="300" y2="200"/>
+    <line x1="300" y1="200" x2="500" y2="130"/>
+    <line x1="500" y1="130" x2="700" y2="280"/>
+    <line x1="700" y1="280" x2="900" y2="220"/>
+    <line x1="900" y1="220" x2="1100" y2="320"/>
+    <line x1="200" y1="380" x2="400" y2="320"/>
+    <line x1="400" y1="320" x2="600" y2="480"/>
+    <line x1="600" y1="480" x2="800" y2="420"/>
+    <line x1="800" y1="420" x2="1000" y2="530"/>
+    <line x1="150" y1="580" x2="350" y2="530"/>
+    <line x1="350" y1="530" x2="550" y2="640"/>
+    <line x1="550" y1="640" x2="750" y2="580"/>
+    <line x1="750" y1="580" x2="950" y2="680"/>
+    <!-- Cross connections -->
+    <line x1="300" y1="200" x2="400" y2="320"/>
+    <line x1="500" y1="130" x2="600" y2="480"/>
+    <line x1="700" y1="280" x2="800" y2="420"/>
+    <line x1="900" y1="220" x2="1000" y2="530"/>
+    <line x1="200" y1="380" x2="350" y2="530"/>
+    <line x1="600" y1="480" x2="750" y2="580"/>
+    <line x1="100" y1="100" x2="200" y2="380"/>
+    <line x1="500" y1="130" x2="400" y2="320"/>
+    <line x1="1100" y1="320" x2="1000" y2="530"/>
+    <line x1="300" y1="200" x2="150" y2="580"/>
+  </g>
+  <!-- Primary nodes -->
+  <g fill="#4f46e5" fill-opacity="0.15">
+    <circle cx="100" cy="100" r="5"/>
+    <circle cx="300" cy="200" r="6"/>
+    <circle cx="500" cy="130" r="5"/>
+    <circle cx="700" cy="280" r="7"/>
+    <circle cx="900" cy="220" r="5"/>
+    <circle cx="1100" cy="320" r="6"/>
+    <circle cx="200" cy="380" r="5"/>
+    <circle cx="400" cy="320" r="6"/>
+    <circle cx="600" cy="480" r="7"/>
+    <circle cx="800" cy="420" r="5"/>
+    <circle cx="1000" cy="530" r="6"/>
+    <circle cx="150" cy="580" r="5"/>
+    <circle cx="350" cy="530" r="6"/>
+    <circle cx="550" cy="640" r="5"/>
+    <circle cx="750" cy="580" r="7"/>
+    <circle cx="950" cy="680" r="5"/>
+  </g>
+  <!-- Accent nodes (cyan) -->
+  <g fill="#06b6d4" fill-opacity="0.2">
+    <circle cx="300" cy="200" r="3"/>
+    <circle cx="600" cy="480" r="3"/>
+    <circle cx="900" cy="220" r="3"/>
+    <circle cx="400" cy="320" r="3"/>
+    <circle cx="750" cy="580" r="3"/>
+    <circle cx="1100" cy="320" r="3"/>
+  </g>
+  <!-- Pulsing rings -->
+  <g fill="none" stroke="#818cf8" stroke-opacity="0.06" stroke-width="1">
+    <circle cx="700" cy="280" r="20"/>
+    <circle cx="700" cy="280" r="35"/>
+    <circle cx="600" cy="480" r="18"/>
+    <circle cx="600" cy="480" r="30"/>
+    <circle cx="300" cy="200" r="15"/>
+    <circle cx="300" cy="200" r="28"/>
+  </g>
+</svg>

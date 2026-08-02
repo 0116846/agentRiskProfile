@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#d64000"/>
-  <path d="M16 4C12.5 7 8 8 8 8v10c0 5.5 3.5 8.5 8 11 4.5-2.5 8-5.5 8-11V8s-4.5-1-8-4z" fill="white" opacity="0.95"/>
-  <path d="M16 6.5c-2.8 2.3-6 3.1-6 3.1v8.4c0 4.2 2.7 6.6 6 8.5 3.3-1.9 6-4.3 6-8.5V9.6s-3.2-.8-6-3.1z" fill="#d64000" opacity="0.15"/>
+  <!-- Shield outline -->
+  <path d="M16 5 L7 9 L7 17 C7 23 11 26.5 16 29 C21 26.5 25 23 25 17 L25 9 Z" fill="white"/>
+  <!-- Inner shield -->
+  <path d="M16 7.5 L9 11 L9 17.5 C9 22 12 25 16 27 C20 25 23 22 23 17.5 L23 11 Z" fill="#d64000"/>
+  <!-- Checkmark inside -->
+  <polyline points="12,17 15,20.5 21,13.5" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
